@@ -9,13 +9,9 @@
 
 ### 修改端口：
 文本编辑器打开后台的 bin/www 文件，将  
-'''
-var port = normalizePort(process.env.PORT || '3000');
-'''
+  var port = normalizePort(process.env.PORT || '3000');  
 修改为  
-'''
-var port = normalizePort(process.env.PORT || '80');
-'''
+  var port = normalizePort(process.env.PORT || '80');  
 即可。  
 
 G41计划网盘：http://www.g41.moe/
